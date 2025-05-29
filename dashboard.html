@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+  <title>ダッシュボード</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="js/lottie.min.js"></script>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="bookmark mail-wrapper" data-url="https://mail.google.com/mail/u/0/#inbox">
+      <div id="lottie-mail" style="width:48px; height:48px; cursor:pointer;"></div>
+      <span>メール</span>
+    </div>
+    <div class="bookmark" data-url="https://docs.google.com/spreadsheets/d/1jSigVyqXtvb3dYWPd3CchHkfzHkMchhtQz-WIcSGs4s/edit?gid=2033214268">
+      <img src="icons/project.svg" alt="手配管理" />
+      <span>手配管理</span>
+    </div>
+    <div class="bookmark" data-url="https://drive.google.com/drive/folders/1LWc1aF2mxW7RBRf2J9KIbL1VK_REB7Fg">
+      <img src="icons/drive.svg" alt="ドライブ" />
+      <span>ドライブ</span>
+    </div>
+    <div class="bookmark" data-url="https://docs.google.com/spreadsheets/d/1uqojPs3Cki3dg5RFtapCsICBz4m5GgdBaXjObYQlS0E/edit?gid=1080948290">
+      <img src="icons/attendance.svg" alt="制作部出勤表" />
+      <span>制作部出勤表</span>
+    </div>
+    <div class="bookmark" data-url="https://docs.google.com/spreadsheets/d/1TrfNknAWGI0CrX-ToKg_IGoDno35_CEDJJv0VuadJF4/edit?gid=1153924989">
+      <img src="icons/cost.svg" alt="翻訳仕入れと売価表" />
+      <span>翻訳仕入れと売価表</span>
+    </div>
+    <div class="bookmark" data-url="https://chatgpt.com/">
+      <img src="icons/chatgpt.svg" alt="ChatGPT" />
+      <span>ChatGPT</span>
+    </div>
+  </div>
+
+  <script src="js/lottie-init.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

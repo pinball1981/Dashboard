@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Mint Dashboard",
+  "version": "1.0",
+  "description": "Clean pastel Japanese dashboard",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "dashboard.html"
+  },
+  "permissions": ["tabs"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/mail.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
